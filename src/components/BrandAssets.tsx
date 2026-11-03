@@ -42,12 +42,12 @@ export const GeopaveLogo: React.FC<LogoProps> = ({
   return (
     <div className="inline-flex items-center gap-3 select-none">
       <div
-        className={`${iconSize} relative flex items-center justify-center rounded-xl overflow-hidden bg-white shadow-sm ring-1 ring-indigo-500/20 shrink-0`}
+        className={`${iconSize} relative flex items-center justify-center rounded-xl overflow-hidden bg-white p-1 shadow-sm ring-1 ring-indigo-500/20 shrink-0`}
       >
         <img
           src="/logo.png"
           alt="GEOPAVE Trace Logo"
-          className="w-full h-full object-contain scale-110"
+          className="w-full h-full object-contain"
         />
       </div>
       <div className="flex flex-col leading-none">
